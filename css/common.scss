@@ -518,7 +518,7 @@ position: absolute;
                         width: 100%;
                         background-color: #fff;
                         padding-top: 30px;
-                        z-index: 1;
+                        z-index: 200;
                         animation: fadeInDown 0.5s ease forwards;
                         .dropdowns2{
                             padding-top: 15px;
@@ -983,3 +983,6 @@ footer{
     }
 }
 }
+//-------------HeaderFooterEnd--------------
+
+

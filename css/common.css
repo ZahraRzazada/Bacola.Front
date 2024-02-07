@@ -476,7 +476,7 @@ header .header-top .container .columncolumn-right .header-switchers i {
   width: 100%;
   background-color: #fff;
   padding-top: 30px;
-  z-index: 1;
+  z-index: 200;
   animation: fadeInDown 0.5s ease forwards;
 }
 .header-nav .container nav ul .dropdowns .dropdowns2 {
@@ -905,32 +905,4 @@ footer .footer-bottom .container .site-payments a img {
   height: auto;
   max-width: 100%;
   overflow: clip;
-}
-
-#HeadPart .container {
-  flex-flow: row wrap;
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
-}
-#HeadPart .container .headpart {
-  padding: 30px;
-}
-#HeadPart .container .headpart h1 {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 0;
-  font-size: 2.5rem;
-}
-#HeadPart .container .headpart p {
-  text-align: center;
-  margin-top: 15px;
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=common.css.map */
