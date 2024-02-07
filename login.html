@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <!--Header Start  -->
@@ -193,6 +194,49 @@
     </header>
     <!-- Header End -->
 
+    <main>
+<!-- Login Part Start -->
+    <section id="Login">
+        <div class="container">
+
+            <div class="login-form">
+                <a href="#" class="active">Login</a>
+                <form method="post" class="woocommerce-form woocommerce-form-register register">
+                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                            <label for="reg_username">Username&nbsp;<span class="required">*</span></label>
+                            <input type="text"  class="zhr2 woocommerce-Input woocommerce-Input--text input-text" name="username" id="reg_username" autocomplete="username" value=""></p>
+                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                            <label for="reg_password">Password&nbsp;<span class="required">*</span></label>
+                            <span class="password-input"><input style="width:200%"  type="password" class="zhr2 woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password"><span class="show-password-input"></span></span>
+                        </p>
+                    <input type="hidden" name="wc_order_attribution_type" value="referral"><input type="hidden" name="wc_order_attribution_url" value="http://127.0.0.1:5500/">
+                    <input type="hidden" name="wc_order_attribution_utm_campaign" value="(none)">
+                    <input type="hidden" name="wc_order_attribution_utm_source" value="127.0.0.1"><input type="hidden" name="wc_order_attribution_utm_medium" value="referral">
+                    <input type="hidden" name="wc_order_attribution_utm_content" value="/"><input type="hidden" name="wc_order_attribution_utm_id" value="(none)">
+                    <input type="hidden" name="wc_order_attribution_utm_term" value="(none)"><input type="hidden" name="wc_order_attribution_session_entry" value="https://klbtheme.com/bacola/?s=&amp;post_type=product">
+                    <input type="hidden" name="wc_order_attribution_session_start_time" value="2024-02-07 13:20:17"><input type="hidden" name="wc_order_attribution_session_pages" value="2"><input type="hidden" name="wc_order_attribution_session_count" value="20">
+                  
+                    <p class="woocommerce-form-row form-row">
+                        <label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+                            <input type="checkbox" name="rememberme"  id="rememberme" value="forever"> <span>Remember me</span>
+                        </label>
+                        <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="bb80be5298"><input type="hidden" name="_wp_http_referer" value="/bacola/my-account/">
+                        <button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Register">Log In</button>
+                    </p> 
+                    <p style="    font-size: 14px;
+                    font-weight: 400;
+                    letter-spacing: 0;
+                    line-height: 24px;" class="pzhr woocommerce-LostPassword lost_password">
+                        <a style=" color: #2bbef9;
+                        text-decoration: none;
+                        background-color: transparent;justify-content:flex-start;font-size:15px"  href="/reset-password.html">Lost your password?</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+<!-- Login Part End -->
+    </main>
 <!-- Footer Start -->
 <footer>
     <div class="footer-subscribe">

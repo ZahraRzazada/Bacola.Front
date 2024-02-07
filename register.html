@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
     <!--Header Start  -->
@@ -192,6 +193,43 @@
         </div>
     </header>
     <!-- Header End -->
+
+    <main>
+<!-- Register Part Start -->
+    <section id="Register">
+        <div class="container">
+
+            <div class="register-form">
+                <a href="#" class="active">Register</a>
+                <form method="post" class="woocommerce-form woocommerce-form-register register">
+                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                            <label for="reg_username">Username&nbsp;<span class="required">*</span></label>
+                            <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="reg_username" autocomplete="username" value=""></p>
+                    <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                        <label for="reg_email">Email address&nbsp;<span class="required">*</span></label>
+                        <input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" autocomplete="email" value=""></p>
+                        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                            <label for="reg_password">Password&nbsp;<span class="required">*</span></label>
+                            <span class="password-input"><input style="width:200%"  type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password"><span class="show-password-input"></span></span>
+                        </p>
+                    <input type="hidden" name="wc_order_attribution_type" value="referral"><input type="hidden" name="wc_order_attribution_url" value="http://127.0.0.1:5500/">
+                    <input type="hidden" name="wc_order_attribution_utm_campaign" value="(none)">
+                    <input type="hidden" name="wc_order_attribution_utm_source" value="127.0.0.1"><input type="hidden" name="wc_order_attribution_utm_medium" value="referral">
+                    <input type="hidden" name="wc_order_attribution_utm_content" value="/"><input type="hidden" name="wc_order_attribution_utm_id" value="(none)">
+                    <input type="hidden" name="wc_order_attribution_utm_term" value="(none)"><input type="hidden" name="wc_order_attribution_session_entry" value="https://klbtheme.com/bacola/?s=&amp;post_type=product">
+                    <input type="hidden" name="wc_order_attribution_session_start_time" value="2024-02-07 13:20:17"><input type="hidden" name="wc_order_attribution_session_pages" value="2"><input type="hidden" name="wc_order_attribution_session_count" value="20">
+                    <input type="hidden" name="wc_order_attribution_user_agent" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"><div class="woocommerce-privacy-policy-text"><p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="https://klbtheme.com/bacola/privacy-policy/" class="zhr woocommerce-privacy-policy-link" target="_blank">privacy policy</a></p></div>
+                    <p class="woocommerce-form-row form-row">
+                        <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="bb80be5298"><input type="hidden" name="_wp_http_referer" value="/bacola/my-account/">
+                        <button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Register">Register</button>
+                    </p> 
+                </form>
+            </div>
+        </div>
+    </section>
+<!-- Register Part End -->
+    </main>
+
 
 <!-- Footer Start -->
 <footer>
