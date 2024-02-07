@@ -1,1 +1,86 @@
 @import url(/order-tracking.html);
+
+
+#Body{
+    .container{
+        padding: 80px 0px;
+        .form{
+            form{
+                box-sizing: border-box;
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    letter-spacing: 0;
+                    line-height: 24px;                        
+                    }
+                    .form-row{
+                        button{
+                           cursor: pointer;
+                           display: inline-flex;
+    align-items: center;
+    height: 2.5rem;
+    font-size: .875rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 0.9375rem;
+    border: 1px solid;
+    color: #fff;
+    background-color:#233a95;
+    border-radius: 4px ;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: all 0.2s cubic-bezier(0.28, 0.12, 0.22, 1);
+                        }
+                        display: flex;
+                        -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                        label{
+                            font-size: .8125rem;
+                            display: inline-block;
+                            margin-bottom: 0.5rem;
+                            }
+                            input{
+                                display: inline-flex;
+                    align-items: center;
+                    font-size: .8rem;
+                    width: 100%;
+                    height: 2.5rem;
+                    padding: 0 0.9375rem;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                    outline: none;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    color: #202435;
+                    background-color:#f3f4f7;
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    -webkit-transition: all 0.2s cubic-bezier(0.28, 0.12, 0.22, 1);
+                    transition: all 0.2s cubic-bezier(0.28, 0.12, 0.22, 1);
+                    }
+                        }
+                }
+            }
+        }
+    }
+
+    @media (max-width:576px){
+        #Body {
+            .container{
+                .form{
+                    margin: 0px 10px;
+                }
+            }
+        }
+    }
+
+
+
+
+    
