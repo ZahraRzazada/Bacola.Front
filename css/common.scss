@@ -986,3 +986,99 @@ footer{
 //-------------HeaderFooterEnd--------------
 
 
+
+//Header Responsive---------------
+@media (max-width:576px){
+    .store-notice{
+        font-size: 0.6rem;
+    }
+    header{
+        .header-top{
+            display: none;
+        }
+        .header-nav{
+            display: none;
+        }
+        .header-main{
+            padding-top: 0rem;
+         .header-search{
+            display: none;
+         }
+         .header-location{
+            display: none;
+         }
+         .container{
+            padding: 0px;
+            margin: 0px;
+         }
+         .user-icon{
+            display: none;
+         }
+         .columncolumn-left{
+           padding-top: 10px;
+           a{
+            
+            .desktop-logo{
+                display: none;
+            }
+            .mobile-logo{
+                display: inline !important;
+                width: 80px;
+            }
+
+           }
+           
+         }
+
+    }
+    }
+   
+}
+
+
+
+//Footer Responsive---------------
+@media (max-width:576px){
+.iconbox{
+    justify-content: flex-start !important;
+
+}
+.container{
+padding-left: 20px;
+}
+.footer-iconboxes{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer{
+    .footer-widgets .container .row .col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer-contact 
+    {
+       display: none !important;
+    } 
+      
+    
+    .footer-bottom .container
+    {
+
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin:20px 10px;
+    padding: 0px;
+    .site-payments{
+        margin-left: 0px;
+
+    }
+    .site-menu{
+        ul{
+            margin-left: 0px;
+            padding: 15px 0px;
+        }
+    }
+}
+}
+
+}

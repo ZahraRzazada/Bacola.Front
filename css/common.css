@@ -905,4 +905,74 @@ footer .footer-bottom .container .site-payments a img {
   height: auto;
   max-width: 100%;
   overflow: clip;
+}
+
+@media (max-width: 576px) {
+  .store-notice {
+    font-size: 0.6rem;
+  }
+  header .header-top {
+    display: none;
+  }
+  header .header-nav {
+    display: none;
+  }
+  header .header-main {
+    padding-top: 0rem;
+  }
+  header .header-main .header-search {
+    display: none;
+  }
+  header .header-main .header-location {
+    display: none;
+  }
+  header .header-main .container {
+    padding: 0px;
+    margin: 0px;
+  }
+  header .header-main .user-icon {
+    display: none;
+  }
+  header .header-main .columncolumn-left {
+    padding-top: 10px;
+  }
+  header .header-main .columncolumn-left a .desktop-logo {
+    display: none;
+  }
+  header .header-main .columncolumn-left a .mobile-logo {
+    display: inline !important;
+    width: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .iconbox {
+    justify-content: flex-start !important;
+  }
+  .container {
+    padding-left: 20px;
+  }
+  .footer-iconboxes {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  footer .footer-widgets .container .row .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  footer .footer-contact {
+    display: none !important;
+  }
+  footer .footer-bottom .container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin: 20px 10px;
+    padding: 0px;
+  }
+  footer .footer-bottom .container .site-payments {
+    margin-left: 0px;
+  }
+  footer .footer-bottom .container .site-menu ul {
+    margin-left: 0px;
+    padding: 15px 0px;
+  }
 }/*# sourceMappingURL=common.css.map */
