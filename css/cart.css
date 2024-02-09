@@ -50,9 +50,6 @@
   padding: 1em;
   vertical-align: middle;
 }
-.wishlist form table thead tr .product-name .tinvwl-mobile {
-  display: none;
-}
 #Wishlist .container .wishlist form table thead tr .product-price {
   font-size: 0.75rem;
   color: #71778e;
@@ -159,7 +156,7 @@
   vertical-align: middle;
   text-align: center;
 }
-#Wishlist .container .wishlist form table tbody tr .product-action button {
+#Wishlist .container .wishlist form table tbody tr .product-action BUTTON {
   display: inline-flex;
   align-items: center;
   height: 2.5rem;
@@ -176,8 +173,8 @@
   box-shadow: none;
   outline: none;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   transition: all 0.2s cubic-bezier(0.28, 0.12, 0.22, 1);
 }
 #Wishlist .container .wishlist form table tfoot {
@@ -192,36 +189,18 @@
   width: 35%;
   margin-right: 2%;
 }
-#Wishlist
-  .container
-  .wishlist
-  form
-  table
-  tfoot
-  td
-  .tinvwl-to-left
-  .tinvwl-input-group {
+#Wishlist .container .wishlist form table tfoot td .tinvwl-to-left .tinvwl-input-group {
   position: relative;
   display: flex;
   border-collapse: separate;
 }
-#Wishlist
-  .container
-  .wishlist
-  form
-  table
-  tfoot
-  td
-  .tinvwl-to-left
-  .tinvwl-input-group
-  .button {
+#Wishlist .container .wishlist form table tfoot td .tinvwl-to-left .tinvwl-input-group .button {
   padding-left: 10px;
   font-size: 0.75rem;
   height: 2.75rem;
   padding: 0 1.25rem;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
   height: 2.5rem;
   font-size: 0.7rem;
   font-weight: 500;
@@ -231,38 +210,21 @@
   color: #fff;
   background-color: #233a95;
   border-radius: 4px;
+  white-space: pre;
   border-color: transparent;
   box-shadow: none;
   outline: none;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   transition: all 0.2s cubic-bezier(0.28, 0.12, 0.22, 1);
   vertical-align: middle;
   margin-left: 10px;
 }
-#Wishlist
-  .container
-  .wishlist
-  form
-  table
-  tfoot
-  td
-  .tinvwl-to-left
-  .tinvwl-input-group
-  input {
+#Wishlist .container .wishlist form table tfoot td .tinvwl-to-left .tinvwl-input-group input {
   overflow: visible;
 }
-#Wishlist
-  .container
-  .wishlist
-  form
-  table
-  tfoot
-  td
-  .tinvwl-to-left
-  .tinvwl-input-group
-  select {
+#Wishlist .container .wishlist form table tfoot td .tinvwl-to-left .tinvwl-input-group select {
   font-size: 0.875rem;
   height: 2.75rem;
   position: relative;
@@ -273,17 +235,7 @@
   margin: 0;
   display: table-cell;
 }
-#Wishlist
-  .container
-  .wishlist
-  form
-  table
-  tfoot
-  td
-  .tinvwl-to-left
-  .tinvwl-input-group
-  select
-  option {
+#Wishlist .container .wishlist form table tfoot td .tinvwl-to-left .tinvwl-input-group select option {
   font-weight: normal;
   display: block;
   min-height: 1.2em;
@@ -313,16 +265,16 @@
   border-radius: 4px;
   border-color: transparent;
   box-shadow: none;
+  white-space: pre;
   outline: none;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   transition: all 0.2s cubic-bezier(0.28, 0.12, 0.22, 1);
   margin: 10px 0 0;
   vertical-align: middle;
   margin-left: 10px;
 }
-
 
 #Basket {
   margin: 50px 0px;
