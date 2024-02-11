@@ -144,4 +144,53 @@
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0;
+}
+
+@media (max-width: 576px) {
+  #Abouttop {
+    height: 100%;
+    margin-top: 20px;
+  }
+  #Abouttop .container {
+    z-index: 200;
+  }
+  #Abouttop .container h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  #Abouttop .container h4 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  #Aboutbottom .container .second h2 {
+    padding: 0px;
+    margin: 20px 0px;
+  }
+  #Aboutbottom .container .second p {
+    padding: 0px;
+    margin: 20px 0px;
+  }
+  #Aboutbottom .container .third {
+    display: block !important;
+    padding: 0px;
+    margin: 0px;
+  }
+  #Aboutbottom .container .third .third-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #Aboutbottom .container .third .third-right {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  #Aboutbottom .container .third .third-right .btm {
+    display: none !important;
+  }
+  #Aboutbottom .container .fourth {
+    margin: 0px 0px 50px 0px;
+    padding: 0px;
+  }
 }/*# sourceMappingURL=about.css.map */
