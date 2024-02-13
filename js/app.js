@@ -1,4 +1,4 @@
-// -------------------Home-Slider-----------------
+// // -------------------Home-Slider-----------------
 $('.home-slider1').slick({
     dots: true,
     infinite: false,
@@ -30,9 +30,6 @@ $('.home-slider1').slick({
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
   $('.product-slider').slick({
@@ -68,9 +65,48 @@ $('.home-slider1').slick({
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+     
     ]
   });
 // --------------------------------------------
+
+//Shop Product----------------------------------
+// $('.main-img').slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   arrows: false,
+//   fade: true,
+//   asNavFor: '.addition-img'
+// });
+// $('.addition-img').slick({
+//   slidesToShow: 3,
+//   slidesToScroll: 1,
+//   asNavFor: '.main-img',
+//   dots: true,
+//   centerMode: true,
+//   focusOnSelect: true
+// });
+//-----------------------------------------------
+
+//TabMneu--------------------------
+let tabbuttons=document.querySelectorAll('#Tabmenu .container .tabmenu .links button')
+console.log(tabbuttons);
+console.log("salam");
+for(let tbtn of tabbuttons){
+tbtn.onclick=function(){
+let x=document.querySelector('.tabactive')
+x.classList.remove('tabactive')
+tbtn.classList.add('tabactive')
+let data_id=this.getAttribute('data-id')
+let items=document.querySelectorAll('#Tabmenu .container .tabmenu  .contents div')
+for( let div of items){
+if(div.getAttribute('id')===data_id){
+  div.classList.remove('d-none')
+}
+else{
+  div.classList.add('d-none')
+}
+}
+}
+}
+//-------------------------------
