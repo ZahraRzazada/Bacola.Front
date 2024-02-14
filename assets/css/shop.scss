@@ -1,6 +1,5 @@
 @import url(/shop.html);
 @import url(/product-detail.html);
-
 body{
     background-color: #f7f8fd;
 }
@@ -53,11 +52,24 @@ body{
               }
             }
             .product-body{
-                .product-slider{
-                    img{
-                        height: auto;
-                        max-width: 100%
+             margin-top: 20px;
+                .product-slid{
+              
+                  padding-right: 50px;
+                    .main-img{
+                        width: 100%;
+
+                        img{
+                            width: 100%;
+                        }
                     }
+                    .addition-img{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
                 }
                 .product-detail{
                     .price{
@@ -303,6 +315,7 @@ body{
         
     }
     .product-right{
+    
         .covid{
             font-size: .6rem;
             text-align: center;
@@ -351,7 +364,7 @@ body{
 }
 }
 }
-}
+
 #Tabmenu{
     margin-bottom: 30px;
     .container{
@@ -488,6 +501,9 @@ body{
                     }
                 }
                 .product-body{
+                    .product-slid{
+padding-right: 0px;
+                    }
                     .product-right{
                         margin-top: 30px;
                     }
