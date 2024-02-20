@@ -149,12 +149,15 @@ function togglevisible(dbtn) {
     element.style.display = "none";
   }
 }
-// Cartd button
-const addToCart = document.querySelector("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
-const quantityCounter = document.querySelector("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .quantity");
-console.log(quantityCounter)
+
+//---Cartd button
+const allAddToCart = document.querySelectorAll("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
+const allQuantityCounter = document.querySelectorAll("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .quantity");
+console.log(allQuantityCounter)
 //quantity and addToCart buttons display values
-addToCart.addEventListener("click", function () {
-  addToCart.style.display = "none";
-  quantityCounter.style.display = "flex";
-});
+for (let i = 0; i < allAddToCart.length; i++) {
+  allAddToCart[i].addEventListener("click", function () {
+    allAddToCart[i].style.display = "none";
+    allQuantityCounter[i].style.display = "flex";
+  });
+}
