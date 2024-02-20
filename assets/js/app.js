@@ -149,3 +149,12 @@ function togglevisible(dbtn) {
     element.style.display = "none";
   }
 }
+// Cartd button
+const addToCart = document.querySelector("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
+const quantityCounter = document.querySelector("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .quantity");
+console.log(quantityCounter)
+//quantity and addToCart buttons display values
+addToCart.addEventListener("click", function () {
+  addToCart.style.display = "none";
+  quantityCounter.style.display = "flex";
+});
