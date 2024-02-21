@@ -150,14 +150,49 @@ function togglevisible(dbtn) {
   }
 }
 
-//---Cartd button
+//---Cartd button HomeSlider
 const allAddToCart = document.querySelectorAll("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
 const allQuantityCounter = document.querySelectorAll("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .quantity");
-console.log(allQuantityCounter)
+
 //quantity and addToCart buttons display values
 for (let i = 0; i < allAddToCart.length; i++) {
   allAddToCart[i].addEventListener("click", function () {
     allAddToCart[i].style.display = "none";
     allQuantityCounter[i].style.display = "flex";
+  });
+}
+
+//---Cartd button Homebottom
+const allAddToCart2 = document.querySelectorAll("#Hometop .container .row .right-part .new-product .container .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
+const allQuantityCounter2 = document.querySelectorAll("#Hometop .container .row .right-part .new-product .container .product .product-card .card-content .product-fade-block .product-button-group .quantity ");
+console.log(allAddToCart2)
+console.log(allQuantityCounter2)
+//quantity and addToCart buttons display values
+for (let i = 0; i < allAddToCart2.length; i++) {
+  allAddToCart2[i].addEventListener("click", function () {
+    allAddToCart2[i].style.display = "none";
+    allQuantityCounter2[i].style.display = "flex";
+  });
+}
+
+//---Cartd button Homebottom
+const allAddToCart3 = document.querySelectorAll("#Shop-part .container .row .shop-primary .container .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
+const allQuantityCounter3 = document.querySelectorAll("#Shop-part .container .row .shop-primary .container .product .product-card .card-content .product-fade-block .product-button-group .quantity ");
+//quantity and addToCart buttons display values
+for (let i = 0; i < allAddToCart3.length; i++) {
+  allAddToCart3[i].addEventListener("click", function () {
+    allAddToCart3[i].style.display = "none";
+    allQuantityCounter3[i].style.display = "flex";
+  });
+}
+
+//---Cartd button Homebottom
+const allAddToCart4 = document.querySelectorAll("#Shop-bottom .container .recently .rproduct-body .products .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
+const allQuantityCounter4 = document.querySelectorAll("#Shop-bottom .container .recently .rproduct-body .products .product .product-card .card-content .product-fade-block .product-button-group .quantity ");
+//quantity and addToCart buttons display values
+for (let i = 0; i < allAddToCart4.length; i++) {
+  allAddToCart4[i].addEventListener("click", function () {
+    allAddToCart4[i].style.display = "none";
+    allQuantityCounter4[i].style.display = "flex";
   });
 }
