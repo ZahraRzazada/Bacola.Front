@@ -1003,7 +1003,6 @@ header .container .all-categories .dropdown-category {
   opacity: 1;
   position: relative;
   visibility: visible;
-  pointer-events: auto;
   background-color: #ffffff;
   border-color: #e4e5ee;
   position: absolute;
@@ -1016,7 +1015,6 @@ header .container .all-categories .dropdown-category {
   border: 1px solid #e4e5ee;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  pointer-events: none;
   transition: all 0.2s cubic-bezier(0.28, 0.12, 0.22, 1);
 }
 header .container .all-categories .dropdown-category .da {
@@ -1068,7 +1066,6 @@ header .container .all-categories .dropdown-category .menu-sidebar-menu-1 .categ
   white-space: nowrap;
   opacity: 0;
   z-index: 2;
-  pointer-events: none;
   transition: all 0.25s cubic-bezier(0.28, 0.12, 0.22, 1);
 }
 header .container .all-categories .dropdown-category .menu-sidebar-menu-1 .category-parent .sub-menu .category-child {
@@ -1078,6 +1075,9 @@ header .container .all-categories .dropdown-category .menu-sidebar-menu-1 .categ
 }
 header .container .all-categories .dropdown-category .menu-sidebar-menu-1 .category-parent:hover .sub-menu {
   opacity: 1 !important;
+}
+header .container .all-categories .dropdown-category .menu-sidebar-menu-1 .category-parent:hover .zhr {
+  color: #2bbef9;
 }
 header .container .all-categories .dropdown-category .menu-sidebar-menu-1 .link-parent1 {
   border-top: 1px solid #d9d9e9;
