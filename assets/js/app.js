@@ -129,26 +129,67 @@ window.onscroll = function () {
 
 
 //Category Dropdown----------------
-var dbtn = document.querySelector("header .header-nav .container .all-categories .collapsed ");
-// // console.log(dbtn);
-// var dropdown=document.querySelector("header .header-nav .container .all-categories .dropdown-category");
-// dropdown.classList
+
+// var dbtn = document.querySelector("header .header-nav .container .all-categories .collapsed ");
+// // // console.log(dbtn);
+// // var dropdown=document.querySelector("header .header-nav .container .all-categories .dropdown-category");
+// // dropdown.classList
 
 
-var dropdown = document.querySelector("header .header-nav .container .all-categories .dropdown-category");
-console.log(dropdown);
-// dropdown.classList.toggle("show");
+// var dropdown = document.querySelector("header .header-nav .container .all-categories .dropdown-category");
+// console.log(dropdown);
+// // dropdown.classList.toggle("show");
 
 
-var dbtn = document.querySelector("header .header-nav .container .all-categories .collapsed ");
-function togglevisible(dbtn) {
-  var element = document.querySelector("header .header-nav .container .all-categories .dropdown-category");
-  if (element.style.display === "none") {
-    element.style.display = "block";
+// var dbtn = document.querySelector("header .header-nav .container .all-categories .collapsed ");
+// function togglevisible(dbtn) {
+//   var element = document.querySelector("header .header-nav .container .all-categories .dropdown-category");
+//   if (element.style.display === "none") {
+//     element.style.display = "block";
+//   } else {
+//     element.style.display = "none";
+//   }
+// }
+
+
+function toggleDiv() {
+  var dropdown = document.querySelector("header .header-nav .container .all-categories .dropdown-category ")
+  if (dropdown.style.display === "none") {
+    dropdown.style.display = "block";
   } else {
-    element.style.display = "none";
+    dropdown.style.display = "none";
   }
 }
+
+
+// $(document).ready(function () {
+//   console.log(tgglebtn)
+//   $('header .header-nav .container .toggle-btn').click(function () {
+//     $('header .header-nav .container .all-categories .dropdown-category').toggleClass('opened closed');
+//   });
+// });
+
+// const listItems = document.querySelectorAll("header .header-nav .container .all-categories .dropdown-category .subc");
+
+// console.log(listItems)
+
+// Add event listeners to each < li > element
+// listItems.forEach(item => {
+//   item.addEventListener('mouseover', () => {
+//     // Add the 'hovered' class when mouse enters
+//     item.classList.add('hovered');
+//   });
+
+//   item.addEventListener('mouseout', () => {
+//     // Remove the 'hovered' class when mouse leaves
+//     item.classList.remove('hovered');
+//   });
+// });
+
+
+
+
+
 
 //---Cartd button HomeSlider
 const allAddToCart = document.querySelectorAll("#Hometop .container .row .right-part .best-seller .best-body .product-slider .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
@@ -165,8 +206,8 @@ for (let i = 0; i < allAddToCart.length; i++) {
 //---Cartd button Homebottom
 const allAddToCart2 = document.querySelectorAll("#Hometop .container .row .right-part .new-product .container .product .product-card .card-content .product-fade-block .product-button-group .add-to-cart");
 const allQuantityCounter2 = document.querySelectorAll("#Hometop .container .row .right-part .new-product .container .product .product-card .card-content .product-fade-block .product-button-group .quantity ");
-console.log(allAddToCart2)
-console.log(allQuantityCounter2)
+// console.log(allAddToCart2)
+// console.log(allQuantityCounter2)
 //quantity and addToCart buttons display values
 for (let i = 0; i < allAddToCart2.length; i++) {
   allAddToCart2[i].addEventListener("click", function () {

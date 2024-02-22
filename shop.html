@@ -146,15 +146,53 @@
         </div>
         <div class="header-nav">
             <div class="container">
-                <div class="all-categories">
-                    <a href="#" data-toggle="collapse" data-target="#all-categories" aria-expanded="false"
-                        class="collapsed">
-                        <i class="fa-solid fa-list"></i>
-                        <span class="text">ALL CATEGORIES</span>
-                        <div class="description">TOTAL 63 PRODUCTS</div>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-                </div>
+                <button class="toggle-btn" onclick="toggleDiv()" style="background-color: transparent;border:none;">
+                    <div class="all-categories">
+                        <a href="#" data-toggle="collapse" data-target="#all-categories" aria-expanded="false"
+                            class="collapsed">
+                            <i class="fa-solid fa-list"></i>
+                            <span class="text">ALL CATEGORIES</span>
+                            <div class="description">TOTAL 63 PRODUCTS</div>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-category">
+                            <ul class="menu-sidebar-menu-1">
+                                <li
+                                    class="category-parent parent  menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children">
+                                    <a class="da" href="/"><i class="fa-regular fa-lemon"></i>Fruits & Vegetables<i
+                                            style="font-size:10px;     padding-left: 0.625rem;
+                                        margin-left: auto;" class="fa-solid fa-chevron-right"></i></a>
+
+                                    <ul class="sub-menu">
+                                        <li
+                                            class="category-child  menu-item menu-item-type-taxonomy menu-item-object-product_cat">
+                                            <a class="da" href="/">Cuts Sprouts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li
+                                    class="category-parent parent  menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children">
+                                    <a class="da" href="/"><i class="fa-regular fa-lemon"></i> Breads & Bakery
+                                    </a>
+                                </li>
+
+
+
+
+                                <li class="link-parent1  menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        class="da" href="https://klbtheme.com/bacola/shop/?on_sale=onsale"><i
+                                            class="bottom"></i> Value of the Day</a></li>
+                                <li class="link-parent  menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        class="da" href="https://klbtheme.com/bacola/shop/?filter_cat=58,35,31"><i
+                                            class="bottom"></i> Top 100 Offers</a></li>
+                                <li class="link-parent  menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        class="da" href="https://klbtheme.com/bacola/shop/"><i class="bottom"></i> New
+                                        Arrivals</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </button>
                 <nav class="site-menu primary-menu horizontal">
                     <ul id="menu-menu-2" class="menu">
                         <li
